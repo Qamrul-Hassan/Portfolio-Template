@@ -6,7 +6,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: initial;
 }
 
 body {
@@ -455,31 +455,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 100px 0;
     position: relative;
 }
-
-.relative-container { position: relative; }
-
-.nav-arrow {
-    position: absolute;
-    top: 60%;
-    width: 40px;
-    height: 40px;
-    border: 1px solid #ddd;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #999;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.nav-arrow:hover {
-    border-color: #080808;
-    color: #080808;
-}
-
-.nav-arrow.left { left: -60px; }
-.nav-arrow.right { right: -60px; }
 
 .work-grid {
     display: grid;
